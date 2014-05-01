@@ -5,6 +5,7 @@ date 5/1/2014 11:12:26 PM
 layout: post
 slug: Yanyd
 title: My first blog to record something
+thread: 1
 categories:
 - 随想
 ---
