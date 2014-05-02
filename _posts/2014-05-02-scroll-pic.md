@@ -9,10 +9,12 @@ thread: 2
 categories:
 - CSS
 - jQuery
+
 tags:
--CSS
--XHTML
--jQuery
+- CSS
+- XHTML
+- jQuery
+
 ---
 
 #图片无缝滚动
@@ -122,7 +124,7 @@ tags:
 	
 	</style>
 
-#jQuery代码
+##jQuery代码
 	<!--版本太高 IE6 不支持-->
 	<script src="http://libs.baidu.com/jquery/1.7.0/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -187,4 +189,4 @@ tags:
         $('.scroll_pic').css('left','0px'); 
     }
 
-在执行动画之前，把大容器移动到合适的位置，然后正常执行动画，由于计算机执行速度非常快，你看不到变化，看上去像一气呵成。附上[DEMO](/scroll-pic-demo/)
+在执行动画之前，把大容器移动到合适的位置，然后正常执行动画，由于计算机执行速度非常快，你看不到变化，看上去像一气呵成。附上[DEMO](/scroll-pic-demo/ "图片无缝滚动")
