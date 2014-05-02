@@ -9,10 +9,12 @@ thread: 2
 categories:
 - CSS
 - jQuery
+
 tags:
--CSS
--XHTML
--jQuery
+- CSS
+- XHTML
+- jQuery
+
 ---
 
 #图片无缝滚动
