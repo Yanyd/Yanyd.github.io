@@ -1,6 +1,6 @@
 ---
 author: Yanyd
-comments: false
+comments: true
 date: 5/1/2014 11:12:26 PM 
 layout: post
 slug: Yanyd
