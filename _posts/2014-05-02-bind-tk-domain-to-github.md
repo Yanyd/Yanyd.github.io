@@ -26,15 +26,16 @@ tags:
 在仓库根目录下添加一个CNAM文件，没有后缀名，里面内容为你的域名(如:test.tk),
 不需要添加http/www等前缀。
 
+`ping username.github.io` 记录下IP地址
+
 ###3、添加DNSPod记录
 
-去[DNSPod](http://www.dnspod.cn)注册个账号，添加域名，设置CNAME记录。
-(如:* CNAME 默认 username.github.io. )然后保存即可。
+去[DNSPod](http://www.dnspod.cn)注册个账号，添加域名，设置两个A记录。
+分别是`@`和`w w w`，ip地址填上个步骤获取的IP地址。
 
 ###4、设置TK域名的DNS
 
 在Csutom DNS里，设置DNS service,添加两条记录f1g1ns1.dnspod.net和f1g1ns2.dnspod.net
-有时会抽风，提示你设置不成功，耐心一点，多试几次。
 
 ###5、漫长的等待
 
