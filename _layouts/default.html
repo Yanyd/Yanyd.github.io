@@ -19,7 +19,12 @@
     function setTimeSpan(){
     	var date = new Date();
     	timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
+    	highlight();
     }
+
+function highlight(){
+	 window.prettyPrint && prettyPrint();
+}
     
     Date.prototype.format = function(format)
 		{
