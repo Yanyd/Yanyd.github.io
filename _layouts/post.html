@@ -61,10 +61,10 @@ $(function(){
   $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
   var _pre=$('pre'),text='',_code='';
   for(var i=0,len=_pre.length;i<len;i++){
-	  _code=_pre.find('code');
+	  _code=_pre[i].find('code');
 	  text=_code.text();
 	  _code.remove();
-	  _pre.text(text);
+	  _pre[i].text(text);
   }
 })
 </script>
