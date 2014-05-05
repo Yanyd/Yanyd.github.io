@@ -48,15 +48,17 @@ tags:
 	    	ev   = ev || window.event ,
 	    	left = ev.clientX,
 	    	top  = ev.clientY;
-	    	
-	    if(selectText().length>0){
-			//解决IE下图标与鼠标对不齐的问题
-		    setTimeout(function(){
-			    objImg.style.display='block';
-			    objImg.style.left = left+'px';
-			    objImg.style.top  = top +'px';
-			}, 100);
-	    }
+
+	    setTimeout(function(){
+		    if(selectText().length>0){
+				//解决IE下图标与鼠标对不齐的问题
+			    setTimeout(function(){
+				    objImg.style.display='block';
+				    objImg.style.left = left+'px'; 
+				    objImg.style.top  = top +'px';
+				}, 100);
+		    }
+	    },200);
     }
 
 然后给图标添加点击事件，跳转到分享页面地址，手动拼接url链接。由于鼠标松开后，onmouseup事件会冒泡到document,导致图标位置再次改变，所以要给图标添加onmouseup事件，阻止事件冒泡。
