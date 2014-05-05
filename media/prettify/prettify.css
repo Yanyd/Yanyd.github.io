@@ -8,7 +8,7 @@ ol {
   list-style: decimal;
 }
 
-code,
+
 pre {
   padding: 0 3px 2px;
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -19,12 +19,7 @@ pre {
           border-radius: 3px;
 }
 
-code {
-  padding: 2px 4px;
-  color: #d14;
-  background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;
-}
+
 
 pre {
   display: block;
@@ -48,12 +43,6 @@ pre.prettyprint {
   margin-bottom: 18px;
 }
 
-pre code {
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  border: 0;
-}
 
 .pre-scrollable {
   max-height: 340px;
