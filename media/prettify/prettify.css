@@ -7,6 +7,7 @@ ol {
 ol {
   list-style: decimal;
 }
+
 code,
 pre {
   padding: 0 3px 2px;
@@ -17,6 +18,7 @@ pre {
      -moz-border-radius: 3px;
           border-radius: 3px;
 }
+
 code {
   padding: 2px 4px;
   color: #d14;
@@ -41,6 +43,7 @@ pre {
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
+
 pre.prettyprint {
   margin-bottom: 18px;
 }
@@ -50,6 +53,11 @@ pre code {
   color: inherit;
   background-color: transparent;
   border: 0;
+}
+
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
 }
 /*cut from bootstrap end*/
 
@@ -75,7 +83,7 @@ pre code {
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums {
-  margin: 0 0 0 33px; /* IE indents via margin-left */
+  margin: 0 0 0 28px; /* IE indents via margin-left */
 } 
 ol.linenums li {
   padding-left: 12px;
