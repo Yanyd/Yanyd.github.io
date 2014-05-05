@@ -59,8 +59,8 @@ $(function(){
   prettyPrint();
 
   $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-  var _pre=$('pre'),text='',_code;
-  for(var i=0,len=_pre.length;i<leni++){
+  var _pre=$('pre'),text='',_code='';
+  for(var i=0,len=_pre.length;i<len;i++){
 	  _code=_pre.find('code');
 	  text=_code.text();
 	  _code.remove();
