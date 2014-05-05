@@ -1,7 +1,7 @@
 ---
 author: Yanyd
 comments: true
-date: 5/2/2014 10:19:16 PM 
+date: 2/5/2014 10:19:16 PM 
 layout: post
 slub: get-css-style
 title: "获取元素的样式"

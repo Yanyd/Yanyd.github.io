@@ -18,7 +18,7 @@
     var flag=true; 
     function setTimeSpan(){
     	var date = new Date();
-    	timeSpan.innerText=date.format('yyyy-MM-dd hh:mm:ss');
+    	document.getElementById('timeSpan').innerText=date.format('yyyy-MM-dd hh:mm:ss');
     	if(flag){
 			window.prettyPrint && prettyPrint();
 	    	flag=false;

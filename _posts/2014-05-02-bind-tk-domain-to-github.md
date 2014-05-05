@@ -2,7 +2,7 @@
 author: Yanyd
 comments: true
 layout: post
-date: 5/2/2014 4:28:46 PM 
+date: 2/5/2014 4:28:46 PM 
 slug: bind-tk-domain-to-github
 title: "绑定TK域名到github pages上"
 thread: 3

@@ -1,7 +1,7 @@
 ---
 author: Yanyd
 comments: true
-date: 5/2/2014 1:17:50 PM 
+date: 2/5/2014 1:17:50 PM 
 layout: post
 slug: scroll-pic
 title: "图片无缝滚"
