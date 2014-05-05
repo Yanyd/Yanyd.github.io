@@ -164,7 +164,7 @@ tags:
 
 PS:网上有一种做法是，点击`扩展程序后`,直接把整个文件夹往里拖放即可，我没做成，不知哪里出现问题。
 
-###问题:
+##问题:
 
 1、在js里引用自己的图片，会自动加上网页的网址，导致找不到。
 
@@ -173,7 +173,7 @@ PS:网上有一种做法是，点击`扩展程序后`,直接把整个文件夹�
 3、图标位置显示不对，本地测试可以，打包后就不行。
 
 
-###OnMouseDown、OnMouseUp与OnClick事件的冲突问题
+##onmousedown、onmouseup、onclick事件的冲突问题
 
 一般可以把onclick认为是onmousedown和onmouseup的集合体。onclick一般用于处理瞬间的点击效果，而onmousedown和onmouseup主要用于处理一些之间有时间间隔的效果，比如说鼠标拖拽停放的效果。
 
