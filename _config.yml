@@ -11,6 +11,7 @@ duoshuo: yanyd
 weibo: 2409320754
 github: Yanyd
 pygments: true
+highlighter: rouge
 safe: true
 paginate: 20
 about: "I am a coder , at the moment ! "
