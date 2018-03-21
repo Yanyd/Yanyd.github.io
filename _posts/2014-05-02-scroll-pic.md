@@ -4,7 +4,7 @@ comments: true
 date: 2/5/2014 1:17:50 PM 
 layout: post
 slug: scroll-pic
-title: "图片无缝滚"
+title: "图片无缝滚动"
 thread: 2
 categories:
 - CSS
