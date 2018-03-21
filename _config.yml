@@ -1,4 +1,4 @@
-markdown: rdiscount
+#markdown: rdiscount
 permalink: /:title/
 url: http://yanyd.github.io/
 name: Yanyd
