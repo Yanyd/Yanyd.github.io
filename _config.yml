@@ -1,16 +1,16 @@
 #markdown: rdiscount
 permalink: /:title/
-url: http://yanyd.github.io/
+url: https://yanyd.github.io/
 name: Yanyd
 author: Yanyd
 qq: 10001
 email: google@gmail.com
-duoshuo: closed
+duoshuo: false
 #beian: 浙ICP备12026616号
 #cnzz: 119959
 weibo: 2409320754
 github: Yanyd
-pygments: true
+pygments: false
 safe: true
 paginate: 20
 about: "I am a coder , at the moment ! "
