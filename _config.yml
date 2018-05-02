@@ -10,7 +10,7 @@ duoshuo: false
 #cnzz: 119959
 weibo: 2409320754
 github: Yanyd
-pygments: false
+pygments: true
 safe: true
 paginate: 20
 about: "I am a coder , at the moment ! "
