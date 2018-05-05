@@ -14,15 +14,15 @@ tags:
 
 ---
 
-##Cookie是什么
+## Cookie是什么
 
 Cookie是User-Agent与服务器交互的凭据，是存储在用户本地终端上的数据(通常会加密)。由服务器产生，发送给浏览器，浏览器会将cookie存储在某个目录下的文本文件内，下一次请求同一网站时，就会把cookie包含在请求头里，一同发给服务器。（前提是浏览器没有禁止Cookie）
 
-##为什么会有Cookie
+## 为什么会有Cookie
 
 http是无状态协议，上一秒还跟你聊得火热，下一秒就不认识你了，得了严重“失忆症”。那么如何让服务器端对你印象深刻呢？Cookie就是用来解决此问题的，可以把它当做是一种凭据，当服务器看到这个凭据，就知道你是谁了。Cookie最早是网景公司的前雇员LouMontulli在1993年3月发明的。
 
-##Cookie有何用处
+## Cookie有何用处
 
 . 用户身份识别（记录用户登录信息，简化登录过程，自动识别用户）   
 
@@ -36,33 +36,33 @@ http是无状态协议，上一秒还跟你聊得火热，下一秒就不认识�
 
 . 网站个性化(自定义网站外观，只关注网站某部分的内容等)
 
-##Cookie格式/大小/个数
+## Cookie格式/大小/个数
 
-###格式
+### 格式
 
 `key=value;expire=date;path=path;domain=domain`
 
 其中value的格式为 `name1:value1&name2:value2&name3:value3...`
 
-###大小
+### 大小
 
 FF和Safari:4097字节  
 Opera:4096字节 
 IE：4095字节  
 名、值、等号都算在内，所以说Coookie的容量一般不要超过4KB。
 
-###个数(单位:个)
+### 个数(单位:个)
 
 IE6：20/域名,IE7:30/域名,IE8:50/域名，Opera:30/域名  
 WebKit内核的浏览器貌似没有限制，所以如果为了兼容IE6，每个域名最好不要超过20个。  
 如果超过最大限制个数，会按照队列先进先出的方式处理，后面进，前面出。  
 如果一个Cookie的容量还绰绰有余，那么可以将多个Cookie合并成一个。
 
-##生存周期
+## 生存周期
 
 Cookie在生成时会指定一个expires值，就是Cookie的生存周期，在这个周期内Cookie有效，超出这个周期Cookie就会被UA清除。一般会将这个周期设置为“0”或负值，这样在关闭浏览器时，Cookie就会被自动清除，不会记录用户信息，更加安全。
 
-##如何操作Cookie
+## 如何操作Cookie
 
 	<script type="text/javascript">
 	    var str='',
@@ -104,7 +104,7 @@ Cookie在生成时会指定一个expires值，就是Cookie的生存周期，在�
 	    //cookie.del('name');
 	</script>
 
-##Cookie安全
+## Cookie安全
 
 可以手动清除Cookie也可以禁止Cookie.  
 跨站点脚本攻击(Cross Site Scripting),利用网站漏洞在网站页面中或第三方脚本文件中植入脚本代码，获取用户Cookie信息，然后通过某种方式(Ajax等)将Cookie发送到指定服务器，攻击者将会重现其价值。
