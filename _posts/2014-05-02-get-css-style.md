@@ -22,11 +22,11 @@ tags:
 
 rel 属性规定当前文档与被链接文档之间的关系,在上例中，rel属性指示被链接的文档是一个样式表。
 
-###获取内嵌样式
+### 获取内嵌样式
 
 document.getElementById('nav').style.width
 
-###获取非内嵌样式
+### 获取非内嵌样式
 
 IE:objDiv.currentStyle.width
 

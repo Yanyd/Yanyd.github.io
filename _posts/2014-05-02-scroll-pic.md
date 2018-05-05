@@ -17,13 +17,13 @@ tags:
 
 ---
 
-##扯几句
+## 扯几句
 没工作了，心里拔凉拔凉的，一想到毕业后该何去何从，心中无数匹草泥马奔腾而过。每一个哀叹今天的人，都有一个不曾努力的过去。人，在自己还不是很厉害的时候，千万别把自己太当回事。
 
-##原理
+## 原理
 将两组相同的图片并排在一行(想像一下，如果首尾相连，是不是就构成一个圆环了，那么不管怎么转都不会出现问题了),所有图片用一个大容器包住，实际移动的就是整个容器。(好吧，这不算原理，表达是硬伤!!!)
 
-##布局
+## 布局
 	<div class="wrapper clearfix">
     	<a href="javascript:void(0);" title="" class="prev">
         	<img src="prev.jpg" alt="" title=""/>
@@ -81,7 +81,7 @@ tags:
         </div><!--图片可视区域 end-->
     </div><!--整体包裹器 end-->
 
-##样式
+## 样式
 	<style type="text/css">
 	
 	/*样式重置*/
@@ -122,7 +122,7 @@ tags:
 	
 	</style>
 
-##jQuery代码
+## jQuery代码
 	<!--版本太高 IE6 不支持-->
 	<script src="http://libs.baidu.com/jquery/1.7.0/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -175,7 +175,7 @@ tags:
 	});
 	</script>
 
-##总结
+## 总结
 重点是这两句:
 
 	//点击向前按钮，下一张是一组图片中最后一张图片
