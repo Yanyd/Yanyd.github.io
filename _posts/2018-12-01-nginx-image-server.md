@@ -104,6 +104,9 @@ static.conf文件里相关server块的设置(只写最主要的)：
 	    }
 	}
 
+缓存效果展示:
+![缓存效果](https://ws3.sinaimg.cn/large/005BYqpgly1fxro33n3krj30jm0asadz.jpg)
+
 ## 3、遇到的问题
 
 由于对Nginx不熟悉，只能Google瞎搜索找解决方案，事倍功半：
