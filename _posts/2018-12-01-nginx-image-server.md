@@ -105,7 +105,7 @@ static.conf文件里相关server块的设置(只写最主要的)：
 	}
 
 缓存效果展示:
-![缓存效果](https://ws3.sinaimg.cn/large/005BYqpgly1fxro33n3krj30jm0asadz.jpg)
+![缓存效果](https://ws3.sinaimg.cn/large/005BYqpgly1fxro9ro3mbj30mg0ain2l.jpg)
 
 ## 3、遇到的问题
 
